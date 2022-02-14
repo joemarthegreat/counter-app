@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.card-container {
+  width: 30%;
+  padding: 1rem;
+  margin: 10% auto;
+  border: 1px solid grey;
+  text-align: center;
+}
+#increment-btn,
+#save-btn {
+  padding: 0.5rem;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #ffcccc 0%, #ff66cc 100%);
+}
